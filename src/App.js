@@ -2,12 +2,14 @@ import React, {Component} from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import firebase from './firebase';
 
-import Home from './components/home';
+import Conteudo from './components/conteudo';
 import Login from './components/login';
 import Header from './components/header';
 import Dashboard from './components/dashboard';
 import Register from './components/register';
 import New from './components/new';
+import Home from './components/home';
+import Footer from './components/footer';
 import './global.css';
 
 class App extends Component{
@@ -28,12 +30,14 @@ class App extends Component{
       <BrowserRouter>
         <Header/>
         <Switch>
-          <Route exact path="/" component={Home}/>
+        <Route exact path="/" component={Home}/>
+          <Route exact path="/conteudo" component={Conteudo}/>
           <Route exact path="/login" component={Login}/>
           <Route exact path="/dashboard" component={Dashboard}/>
           <Route exact path="/dashboard/new" component={New}/>
           <Route exact path="/register" component={Register}/>
         </Switch>
+        <Footer/>
       </BrowserRouter>
     ) : (
       <h1>Carregando...</h1>

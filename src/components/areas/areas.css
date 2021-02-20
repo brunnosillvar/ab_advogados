@@ -1,0 +1,44 @@
+@media only screen and (min-width: 1200px){
+    #border img{
+        width: 200px;
+        height: 200px
+    }
+    .areas h1{
+        margin-top: 20px;
+        font-size: 30px;
+        color: #C6AC8F;
+    }
+    #paragrafoAreas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.tituloAreas h1{
+    font-size: 30px;
+    color: #C6AC8F;
+}
+
+.tituloAreas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#border{
+    width: 100%;
+    height: 280px;
+    border: 1px solid rgba(94, 80, 63, 0.7);
+    background: #C6AC8F;
+    box-shadow: -10px -10px 30px rgba(94, 80, 63, 0.7);
+}
+
+#border img{
+    margin-top: 50px;
+}
+
+#paragrafoAreas p{
+    margin-top: 10px;
+    font-size: 25px;
+}

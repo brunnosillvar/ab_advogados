@@ -1,0 +1,49 @@
+@media only screen and (min-width: 576px){
+    .tituloConteudo h1{
+        margin-top: 20px;
+        font-size: 30px;
+        color: #C6AC8F;
+    }
+    .listConteudo{
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+}
+
+.tituloConteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloConteudo h1{
+    font-size: 30px;
+    color: #C6AC8F;
+}
+
+h5#titulo{
+    font-size: 20px;
+    padding-top: 5px;
+    color: #FFF
+}
+
+span#autor{
+    font-size: 15px;
+    padding-top: 5px;
+    color: #FFF
+}
+
+p#descricao{
+    font-size: 13px;
+    padding-top: 5px;
+    color: #FFF
+}
+
+img#imgPost{
+    width: 150px;
+    max-height: 150px; 
+}
+
+.conteudos {width: 100%;  text-align: left;  margin-bottom: 3%;}
+.conteudos img {border-radius: 7px 7px 0 0;}
+.inner {padding: 7%;}

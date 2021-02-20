@@ -1,0 +1,54 @@
+@media only screen and (min-width: 576px){
+    #perfil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #perfil img{
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+    }
+    .equipe h1{
+        margin-top: 20px;
+        font-size: 30px;
+        color: #C6AC8F;
+    }
+    #paragrafoEquipe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #equipegeral{
+        margin-top: 15px;
+    }
+}
+
+.tituloEquipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloEquipe h1{
+    font-size: 30px;
+    color: #C6AC8F;
+}
+
+#paragrafoEquipe p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #FFF;
+}
+
+#perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#perfil img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}

@@ -1,0 +1,41 @@
+@media only screen and (min-width: 576px){
+    .institucional img{
+        width: 400px;
+        height: 400px
+    }
+}
+
+@media only screen and (min-width: 576px){
+    .institucional h1{
+        margin-top: 20px;
+        font-size: 30px;
+        color: #C6AC8F;
+    }
+}
+
+#imgEscritorio{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.institucional h1{
+    font-size: 30px;
+    color: #C6AC8F;
+}
+
+.tituloInst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.institucional p{
+    font-size: 14px;
+    color: #FFF;
+}
+
+#conteudoInst{
+    margin-top: 10px;
+}

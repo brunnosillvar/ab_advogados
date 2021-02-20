@@ -1,51 +1,24 @@
-import React, {Component} from 'react';
-import firebase from '../../firebase';
+import React, { Component } from 'react';
 import './home.css';
+import Conteudo from '../conteudo/index';
+import Valores from '../valores/index';
+import Institucional from '../institucional/index';
+import Areas from '../areas/index';
+import Equipe from '../equipe/index';
+import Contato from '../contato/index';
 
-class Home extends Component{
+class Home extends Component {
 
-    state = {
-        posts: []
-    };
-
-    componentDidMount(){
-        firebase.app.ref('posts').once('value', (snapshot)=>{
-            let state = this.state;
-            state.posts = [];
-            snapshot.forEach((childItem)=>{
-                state.posts.push({
-                    key: childItem.key,
-                    titulo: childItem.val().titulo,
-                    descricao: childItem.val().descricao,
-                    autor: childItem.val().autor,
-                    image: childItem.val().image
-                })
-            })
-            state.posts.reverse();
-            this.setState({state});
-        })
-    }
-
-    render(){
-        return(
-            <section id="post">
-                {this.state.posts.map((post)=>{
-                    return(
-                        <article key={post.key}>
-                            <header>
-                                <div className="title">
-                                    <strong>{post.titulo}</strong>
-                                    <span>Autor: {post.autor}</span>
-                                </div>
-                            </header>
-                            <img src={post.image} alt="Capa do Post" />
-                            <footer>
-                                <p>{post.descricao}</p>
-                            </footer>
-                        </article>
-                    )
-                })}
-            </section>
+    render() {
+        return (
+                <div className="home">
+                    <Valores/>
+                    <Institucional/>
+                    <Areas/>
+                    <Equipe/>
+                    <Conteudo/>
+                    <Contato/>
+                </div>   
         );
     }
 }

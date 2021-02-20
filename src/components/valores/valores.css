@@ -1,0 +1,39 @@
+#carouselSection{
+    width: 100%;
+    height: 300px;
+}
+
+#carouselSection h1{
+    padding-top: 60px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: #C6AC8F;
+}
+
+#carouselSection p{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FFF;
+}
+
+@media only screen and (min-width: 576px){
+    #carouselSection{
+        width: 100%;
+        height: 300px;
+    }
+    #carouselSection h1{
+        font-size: 40px;
+        margin-left: 150px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        color: #C6AC8F;
+    }
+    #carouselSection p{
+        margin-left: 95px;
+        width: 40%;
+        font-size: 16px;
+        padding: 10px;
+        color: #FFF;
+    }
+}
