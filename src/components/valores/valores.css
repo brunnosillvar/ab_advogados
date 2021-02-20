@@ -7,13 +7,19 @@
     padding-top: 60px;
     padding-left: 10px;
     font-size: 30px;
-    color: #C6AC8F;
+    color: #FFF;
+    font-weight: bold;
 }
 
 #carouselSection p{
     padding-left: 10px;
     padding-right: 10px;
     color: #FFF;
+    text-align: left;
+}
+
+#carouselSection img{
+    opacity: .4;
 }
 
 @media only screen and (min-width: 576px){
@@ -23,17 +29,23 @@
     }
     #carouselSection h1{
         font-size: 40px;
-        margin-left: 150px;
+        /* margin-left: 150px; */
         padding: 10px;
         display: flex;
         align-items: center;
-        color: #C6AC8F;
+        color: #FFF;
+        font-weight: bold;
     }
     #carouselSection p{
-        margin-left: 95px;
+        /* margin-left: 20px; */
         width: 40%;
         font-size: 16px;
         padding: 10px;
         color: #FFF;
+        text-align: left;
+    }
+
+    #carouselSection img{
+        opacity: .6;
     }
 }

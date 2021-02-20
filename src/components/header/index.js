@@ -18,7 +18,7 @@ function Header() {
 
                     <section className="collapse navbar-collapse" id="navbarMainToggler">
                         <div className="navbar-nav ml-auto">
-                            <a className="nav-item nav-link" href="#valores">Inicio</a>
+                            <Link className="nav-item nav-link" to="/">Inicio</Link>
                             <a className="nav-item nav-link" href="#institucional">Institucional</a>
                             <a className="nav-item nav-link" href="#areas">Áreas de Atuação</a>
                             <a className="nav-item nav-link" href="#equipe">Equipe</a>

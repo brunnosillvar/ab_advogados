@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link, withRouter} from 'react-router-dom';
+import { withRouter} from 'react-router-dom';
 import firebase from '../../firebase';
 
 import './login.css'
@@ -20,7 +20,7 @@ class Login extends Component{
     componentDidMount(){
         //Verificar se tem algum usuário logado
         if(firebase.getCurrente()){
-            return this.props.history.replace('/dashboard');
+            return this.props.history.replace('/dashboard/new');
         }
     }
 
@@ -47,7 +47,7 @@ class Login extends Component{
             alert(error.message);
         }
 
-        this.props.history.replace('/dashboard');
+        this.props.history.replace('/dashboard/new');
         
     }
 
@@ -65,8 +65,6 @@ class Login extends Component{
                     <button type="submit">
                         Entrar
                     </button>
-
-                    <Link to="/register">Ainda não possuo uma conta</Link>
                 </form>
             </div>
         );

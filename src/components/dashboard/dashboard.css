@@ -20,3 +20,10 @@ div#dashboard .user-info a{
     color: #ffffff;
     text-decoration: none;
 }
+
+#dashboard a{
+    text-align: center;
+    text-decoration: none;
+    color: #272727;
+    font-size: 15px;
+}

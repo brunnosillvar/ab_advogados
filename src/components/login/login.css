@@ -21,17 +21,11 @@ form#login input{
 form#login button{
     padding: 10px 20px;
     margin-bottom: 10px;
-    border-radius: 4px;
-    background: #272727;
+    border-radius: 10px;
+    border: none;
+    background: #22333B;
     color: #ffffff;
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-}
-
-form#login a{
-    text-align: center;
-    text-decoration: none;
-    color: #272727;
-    font-size: 15px;
 }

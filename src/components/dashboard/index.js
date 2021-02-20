@@ -46,7 +46,8 @@ class Dashboard extends Component{
                     <Link to='/dashboard/new'>Novo Post</Link>
                 </div> 
                 <p>Logado com: {firebase.getCurrente()}</p>
-                <button onClick={() => this.logout()}>Logout</button>
+                <button onClick={() => this.logout()}>Logout</button><br></br>
+                <Link to="/register">Ainda não possuo uma conta</Link>
             </div>
         );
     }
