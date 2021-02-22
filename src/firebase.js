@@ -4,13 +4,13 @@ import 'firebase/auth';
 import 'firebase/storage';
 
 let firebaseConfig = {
-    apiKey: "AIzaSyADTibEF40Ivf-L7qk4iKIozDJ9O6luQkA",
-    authDomain: "reactapp-e28f5.firebaseapp.com",
-    projectId: "reactapp-e28f5",
-    storageBucket: "reactapp-e28f5.appspot.com",
-    messagingSenderId: "15041125894",
-    appId: "1:15041125894:web:1b1b41c20b244743b22d87",
-    measurementId: "G-05V3GNY41R"
+    apiKey: "AIzaSyAKAdwP0NO7OC46_F7offcfE0mIelvIkUM",
+    authDomain: "ab-advogados.firebaseapp.com",
+    projectId: "ab-advogados",
+    storageBucket: "ab-advogados.appspot.com",
+    messagingSenderId: "220980942424",
+    appId: "1:220980942424:web:0e3cb948dbbd962a959c2d",
+    measurementId: "G-4VTJ03R9YK"
 };
 
 class Firebase{
