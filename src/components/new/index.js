@@ -131,7 +131,7 @@ class New extends Component {
                         {/* <Link to='/dashboard/new'>Novo Post</Link> */}
                     </div>
                     <p>Logado com: {firebase.getCurrente()}</p>
-                    <Link className="registerLink" to="/register">Ainda não possuo uma conta</Link>
+                    <Link className="registerLink" to="/register">Criar uma nova conta</Link>
                 </div>
                 <form onSubmit={this.cadastrar} id="new-post">
                     <span>{this.state.alert}</span>

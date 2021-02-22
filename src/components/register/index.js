@@ -30,7 +30,7 @@ class Register extends Component{
 
             await firebase.register(nome, email, password);
 
-            this.props.history.replace('/dashboard');
+            this.props.history.replace('/dashboard/new');
         }catch(erro){
             alert(erro.message);
         }
