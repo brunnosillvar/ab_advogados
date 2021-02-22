@@ -14,8 +14,8 @@ function Footer() {
                     </div>
                     <div className="col-sm">
                         <div className="icons">
-                            <a href="https://www.facebook.com/augustoebarrosadv/"><FacebookFilled style={{ fontSize: '50px', color: '#C6AC8F', padding:'10px' }} /></a>
-                            <a href="https://www.instagram.com/augustoebarros/"><InstagramFilled style={{ fontSize: '50px', color: '#C6AC8F', padding:'10px' }} /></a>
+                            <a href="https://www.facebook.com/augustoebarrosadv/" target="_blank"><FacebookFilled style={{ fontSize: '50px', color: '#C6AC8F', padding:'10px' }} /></a>
+                            <a href="https://www.instagram.com/augustoebarros/" target="_blank"><InstagramFilled style={{ fontSize: '50px', color: '#C6AC8F', padding:'10px' }} /></a>
                         </div>
                     </div>
                 </div>
