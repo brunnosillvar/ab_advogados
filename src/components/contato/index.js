@@ -9,6 +9,8 @@ class Contato extends Component {
     handleClick = () => {
         alert('Mensagem enviada com sucesso!');
         window.location.reload();
+        $("input").val("");
+		$("textarea").val("");
     }
     render() {
         return (
