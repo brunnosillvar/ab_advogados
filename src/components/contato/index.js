@@ -8,9 +8,7 @@ import InputMask from 'react-input-mask';
 class Contato extends Component {
     handleClick = () => {
         alert('Mensagem enviada com sucesso!');
-        window.location.reload();
-        $("input").val("");
-		$("textarea").val("");
+        window.location.href("https://abadvogados.000webhostapp.com/");
     }
     render() {
         return (
