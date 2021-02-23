@@ -18,7 +18,12 @@ class Equipe extends Component {
                                     <img src={barros} width="180px" height="180px" alt="" />
                                 </div>
                                 <div className="col-sm" id="paragrafoEquipe">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <p>Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan 
+                                        disputationi eu sit. Vide electram sadipscing et per. 
+                                        Interessantiss quisso pudia ce receita de bolis, mais bolis 
+                                        eu num gostis. Praesent malesuada urna nisi, quis volutpat 
+                                        erat hendrerit non. Nam vulputate dapibus. Quem num gosta di 
+                                        mim que vai caçá sua turmis!</p>
                                 </div>
                             </div>
                         </div>
@@ -28,7 +33,11 @@ class Equipe extends Component {
                                     <img src={cristiano} width="180px" height="180px" alt="" />
                                 </div>
                                 <div className="col-sm" id="paragrafoEquipe">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <p>Interagi no mé, cursus quis, vehicula ac nisi. 
+                                        Detraxit consequat et quo num tendi nada. Nullam volutpat 
+                                        risus nec leo commodo, ut interdum diam laoreet. Sed non 
+                                        consequat odio. Suco de cevadiss deixa as pessoas mais 
+                                        interessantis.</p>
                                 </div>
                             </div>
                         </div>
