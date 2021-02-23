@@ -16,14 +16,14 @@ $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->Port= 587;
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'brunosilva.num@gmail.com';                 // SMTP username
-$mail->Password = 'srirvouqhafnfrop';                           // SMTP password
+$mail->Username = 'abadvogados.blog@gmail.com';                 // SMTP username
+$mail->Password = 'cyravjcaimwpnfcm';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->SMTPOptions = array('ssl' => array('verify_peer' => false, 'verify_peer_name' => false, 'allow_self_signed' => true)); //Específico para Hostgator
 
 //Recipients
 $mail->setFrom($emailUser,$nomeUser);
-$mail->addAddress('bruno_silva2101@hotmail.com');     // Add a recipient
+$mail->addAddress('abadvogados.blog@gmail.com');     // Add a recipient
 
 //Content
 $Body= "
@@ -36,4 +36,14 @@ $mail->Subject = 'Contato do Site';
 $mail->Body = $Body;
 
 $mail->send();
-echo 'Mensagem enviada com sucesso!';
+header("location:javascript:alert(\"Email enviado com Sucesso!\");location.href=\"https://abadvogados.000webhostapp.com\";");
+
+// echo '<!DOCTYPE html>';
+//    echo '<html>';
+//    echo '<head>';
+//    echo '   <meta http-equiv="refresh" content="5; url=https://abadvogados.000webhostapp.com">';
+//    echo '</head>';
+//    echo '<body onload="alert('+"'"+'Email enviado com Sucesso!'+"'"+');">';
+//    echo '<a href="https://abadvogados.000webhostapp.com">click!</a>';
+//    echo '</body>';
+//    echo '</html>';
