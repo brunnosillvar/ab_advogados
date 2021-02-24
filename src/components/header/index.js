@@ -19,11 +19,11 @@ function Header() {
                     <section className="collapse navbar-collapse" id="navbarMainToggler">
                         <div className="navbar-nav ml-auto">
                             <Link className="nav-item nav-link" to="/">Inicio</Link>
-                            <a className="nav-item nav-link" href="#institucional">Institucional</a>
-                            <a className="nav-item nav-link" href="#areas">Áreas de Atuação</a>
-                            <a className="nav-item nav-link" href="#equipe">Equipe</a>
+                            <a className="nav-item nav-link" href="/#institucional">Institucional</a>
+                            <a className="nav-item nav-link" href="/#areas">Áreas de Atuação</a>
+                            <a className="nav-item nav-link" href="/#equipe">Equipe</a>
                             <a className="nav-item nav-link" href="/#conteudo">Conteúdo</a>
-                            <a className="nav-item nav-link" href="#contato">Contato</a>
+                            <a className="nav-item nav-link" href="/#contato">Contato</a>
                             <Link className="nav-item nav-link" to="/login">Login</Link>
                         </div>
                     </section>

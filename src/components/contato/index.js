@@ -2,16 +2,14 @@ import React, { Component } from 'react';
 import './contato.css';
 import Iframe from 'react-iframe';
 import InputMask from 'react-input-mask';
-// import $ from 'jquery';
 
 
 
 class Contato extends Component {
-    // handleClick = () => {
-    //     alert('Mensagem enviada com sucesso!');
-    //     window.location.reload();
-    //     $('#form1')[0].reset();
-    // }
+    handleClick = () => {
+        alert('Mensagem enviada com sucesso!');
+        document.location.reload();
+    }
     render() {
         return (
             <div className="container" id="contato">
@@ -53,7 +51,7 @@ class Contato extends Component {
                             <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
                             <InputMask type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone" mask="(99) 99999-9999" maskChar=" " />
                             <textarea class="form-control" id="mensagem" rows="3" name="mensagem" placeholder="Mensagem"></textarea>
-                            <input id="button" type="submit" value="Enviar"/>
+                            <input id="button" type="submit" value="Enviar" onClick={this.handleClick}/>
                         </form>
                     </div>
                 </div>

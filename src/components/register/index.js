@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { withRouter} from 'react-router-dom';
 import firebase from '../../firebase';
+import { Link } from 'react-router-dom';
 
 import './register.css'
 
@@ -39,6 +40,9 @@ class Register extends Component{
     render(){
         return(
             <div>
+                <header id="new">
+                    <Link to='/dashboard/new'>Voltar</Link>                    
+                </header>
                 <h1 className="register-h1">Novo Usuário</h1>
                 <form onSubmit={this.register} id="register">
                     <label>Nome: </label><br/>

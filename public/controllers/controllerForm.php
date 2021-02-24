@@ -36,14 +36,26 @@ $mail->Subject = 'Contato do Site';
 $mail->Body = $Body;
 
 $mail->send();
-header("location:javascript:alert(\"Email enviado com Sucesso!\");location.href=\"https://abadvogados.000webhostapp.com\";");
-
-// echo '<!DOCTYPE html>';
-//    echo '<html>';
-//    echo '<head>';
-//    echo '   <meta http-equiv="refresh" content="5; url=https://abadvogados.000webhostapp.com">';
-//    echo '</head>';
-//    echo '<body onload="alert('+"'"+'Email enviado com Sucesso!'+"'"+');">';
-//    echo '<a href="https://abadvogados.000webhostapp.com">click!</a>';
-//    echo '</body>';
-//    echo '</html>';
+// header("location:javascript:alert(\"Email enviado com Sucesso!\");location.href=\"https://abadvogados.000webhostapp.com\";");
+// O código abaixo é para o direcionamento a uma página após o envio do email
+echo '<!DOCTYPE html>';
+echo'<html>';
+echo'<head>';
+echo'<style type="text/css">';
+echo'div{display: flex; justify-content: center; align-items: center}';
+echo'a { color: #FFF; background: #22333B; width: 100px; height: 46px;  padding: 10px 20px; border-radius: 7px; border: none; font-size: 18px; font-weight: bold; cursor: pointer; text-decoration: none;}';
+echo'a:hover{color: #22333B; background: #C6AC8F}';
+echo'</style>';
+echo'</head>';
+echo'<body onload="alert('+"'"+'Email enviado com Sucesso!'+"'"+');">';
+echo'<div>';
+echo'<h3 style="text-align: center">';
+echo'Seu email foi enviado com sucesso!<br>';
+echo'Para voltar a página inicial click no botão "Voltar" abaixo.';
+echo'</h3>';
+echo'</div>';
+echo'<div>';
+echo'<p><a href="https://abadvogados.000webhostapp.com" >Voltar</a></p>';
+echo'</div>';
+echo'</body>';
+echo'</html>';

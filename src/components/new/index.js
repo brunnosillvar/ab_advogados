@@ -149,7 +149,7 @@ class New extends Component {
 
                     <label>Descrição: </label><br />
                     <textarea type="text" placeholder="Conteúdo" value={this.state.descricao}
-                        autoFocus onChange={(e) => this.setState({ descricao: e.target.value })} /><br />
+                        onChange={(e) => this.setState({ descricao: e.target.value })} /><br />
 
                     <button type="submit">Cadastrar</button>
                 </form>
