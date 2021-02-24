@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './valores.css';
-import valores from "../../assets/images/Valores.jpg";
+import valores from "../../assets/images/Valores3.jpg";
 import missao from "../../assets/images/Missao.jpg";
 import visao from "../../assets/images/Visao.jpg";
 
