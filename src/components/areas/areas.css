@@ -13,6 +13,17 @@
         justify-content: center;
         align-items: center;
     }
+    #paragrafoAreasFontMenor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+#paragrafoAreasFontMenor{
+    margin-top: 10px;
+    font-size: 24px;
 }
 
 .tituloAreas h1{

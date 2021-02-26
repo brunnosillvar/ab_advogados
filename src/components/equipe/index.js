@@ -18,12 +18,11 @@ class Equipe extends Component {
                                     <img src={barros} width="180px" height="180px" alt="" />
                                 </div>
                                 <div className="col-sm" id="paragrafoEquipe">
-                                    <p>Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan 
-                                        disputationi eu sit. Vide electram sadipscing et per. 
-                                        Interessantiss quisso pudia ce receita de bolis, mais bolis 
-                                        eu num gostis. Praesent malesuada urna nisi, quis volutpat 
-                                        erat hendrerit non. Nam vulputate dapibus. Quem num gosta di 
-                                        mim que vai caçá sua turmis!</p>
+                                    <p>Natanael Santos Barros<br/>
+                                        Sócio- Diretor, Pós- Graduado em Direito 
+                                        Processual Civil, Pós- Graduado em Direito 
+                                        Empresarial, Graduando em Ciências Econômicas.<br/>
+                                        Áreas de Atuação: Cível, Compliance e Empresarial.</p>
                                 </div>
                             </div>
                         </div>
@@ -33,11 +32,11 @@ class Equipe extends Component {
                                     <img src={cristiano} width="180px" height="180px" alt="" />
                                 </div>
                                 <div className="col-sm" id="paragrafoEquipe">
-                                    <p>Interagi no mé, cursus quis, vehicula ac nisi. 
-                                        Detraxit consequat et quo num tendi nada. Nullam volutpat 
-                                        risus nec leo commodo, ut interdum diam laoreet. Sed non 
-                                        consequat odio. Suco de cevadiss deixa as pessoas mais 
-                                        interessantis.</p>
+                                    <p>Cristiano de Oliveira Augusto<br/>
+                                        Sócio- Diretor, Pós- Graduado em Direito e 
+                                        Processo do Trabalho, Pós- Graduando em Direito e 
+                                        Processo Penal.<br/>
+                                        Áreas de Atuação: Cível, Compliance e Trabalhista.</p>
                                 </div>
                             </div>
                         </div>

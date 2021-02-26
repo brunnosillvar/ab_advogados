@@ -19,18 +19,21 @@ class Contato extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-sm" id="informacoesContato">
-                                    <h5>ENDEREÇO</h5>
+                                    <h5>ENDEREÇO SEDE</h5>
                                     <p>Rua Isabel, 180, Penha, São Paulo - SP</p>
                                     <br />
-                                    <p>Ficamos próximo à Avenida Amador Bueno da Veiga</p>
+                                    <h5>ENDEREÇO FILIAL</h5> 
+                                    <p>Alameda Terracota, 
+                                    215, 8° andar, sala 819, Cerâmica, 
+                                    São Caetano do Sul- SP</p>                                    
                                 </div>
                                 <div className="col-sm" id="informacoesContato">
                                     <h5>TELEFONE</h5>
-                                    <p>(11) 93320-6463 <br />
-                                    (11) 95347-1360 </p>
-                                    <br />
+                                    <p> (11) 95347-1360 <br/> 
+                                    (11) 93320-6463 </p>                                                                        
                                     <h5>CONTATO</h5>
-                                    <p>contato@contato.com.br</p>
+                                    <p>natanaelbarros@adv.oabsp.org.br<br/>
+                                    c.augusto@adv.oabsp.org.br</p>                                    
                                 </div>
                                 <div className="maps">
                                     <Iframe

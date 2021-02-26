@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './institucional.css';
-import escritorio from "../../assets/images/escritorio.png";
+import escritorio from "../../assets/images/escritorio.jpeg";
 
 class Institucional extends Component {
 

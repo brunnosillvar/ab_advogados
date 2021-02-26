@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './valores.css';
-import valores from "../../assets/images/Valores3.jpg";
+import valores from "../../assets/images/Valores4.png";
+import valoresmobile from "../../assets/images/Valores4M.png";
 import missao from "../../assets/images/Missao.jpg";
 import visao from "../../assets/images/Visao.jpg";
 
@@ -17,7 +18,8 @@ class Valores extends Component {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={valores} width="100%" height="300px" alt="Imagem 0" className="d-block w-100" />
+                        <img src={valores} width="100%" height="300px" alt="Imagem 0" id="desktop" className="desktop" />
+                        <img src={valoresmobile} width="100%" height="300px" alt="Imagem 0" id="mobile" className="mobile" />
                         <div className="carousel-caption d-none d-block">
                             <h1>Nossos Valores</h1>
                             <p>Somos dinâmicos, abertos a novos conhecimentos e
@@ -34,8 +36,8 @@ class Valores extends Component {
                             <h1>Nossa Missão</h1>
                             <p>Prover serviços jurídicos de qualidade,
                             a fim de auxiliar os clientes a alcançar seus
-                            objetivos de forma eficaz e célere, através de advogados
-                            e colaboradores qualificados, dedicados as causas
+                            objetivos de forma célere e eficaz, através de advogados
+                            e colaboradores qualificados, dedicados às causas
                             a eles confiadas.</p>
                         </div>
                     </div>

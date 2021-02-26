@@ -23,7 +23,8 @@ $mail->SMTPOptions = array('ssl' => array('verify_peer' => false, 'verify_peer_n
 
 //Recipients
 $mail->setFrom($emailUser,$nomeUser);
-$mail->addAddress('abadvogados.blog@gmail.com');     // Add a recipient
+$mail->addAddress('natanaelbarros@adv.oabsp.org.br');
+$mail->addAddress('c.augusto@adv.oabsp.org.br');     // Add a recipient
 
 //Content
 $Body= "
