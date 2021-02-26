@@ -20,6 +20,7 @@
     padding-right: 10px;
     color: #FFF;
     text-align: left;
+    font-size: 12px;
 }
 
 #carouselSection img{
@@ -32,7 +33,7 @@
         height: 300px;
     }
     #carouselSection h1{
-        font-size: 40px;
+        font-size: 30px;
         /* margin-left: 150px; */
         padding: 10px;
         display: flex;
@@ -43,7 +44,7 @@
     #carouselSection p{
         /* margin-left: 20px; */
         width: 40%;
-        font-size: 16px;
+        font-size: 14px;
         padding: 10px;
         color: #FFF;
         text-align: left;

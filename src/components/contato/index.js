@@ -21,7 +21,7 @@ class Contato extends Component {
                                 <div className="col-sm" id="informacoesContato">
                                     <h5>ENDEREÇO SEDE</h5>
                                     <p>Rua Isabel, 180, Penha, São Paulo - SP</p>
-                                    <br />
+                                    {/* <br /> */}
                                     <h5>ENDEREÇO FILIAL</h5> 
                                     <p>Alameda Terracota, 
                                     215, 8° andar, sala 819, Cerâmica, 
