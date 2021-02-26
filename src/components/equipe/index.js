@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './equipe.css';
 import cristiano from "../../assets/images/Cristiano.jpeg";
-import barros from "../../assets/images/Barros.jpeg";
+import barros from "../../assets/images/Barros.png";
 
 class Equipe extends Component {
 
