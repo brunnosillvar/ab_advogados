@@ -5,6 +5,9 @@ import trabalhista from "../../assets/icones/Trabalhista.png";
 import familia from "../../assets/icones/Familia.png";
 import tributaria from "../../assets/icones/Tributaria.png";
 import criminal from "../../assets/icones/Criminal.png";
+import compliance from "../../assets/icones/compliance.png";
+import imobiliario from "../../assets/icones/imobiliario.png";
+import empresarial from "../../assets/icones/empresarial.png";
 
 class Areas extends Component {
 
@@ -18,7 +21,7 @@ class Areas extends Component {
                         <div className="col-sm" id="border">
                         <div className="row">
                                 <div className="col-sm">
-                                    <img src={familia} width="150px" height="150px" alt="" />
+                                    <img src={empresarial} width="150px" height="150px" alt="" />
                                 </div>
                                 <div className="col-sm" id="paragrafoAreasFontMenor">
                                     <p>Empresarial</p>
@@ -28,7 +31,7 @@ class Areas extends Component {
                         <div className="col-sm" id="border">
                         <div className="row">
                                 <div className="col-sm">
-                                    <img src={tributaria} width="150px" height="150px" alt="" />
+                                    <img src={imobiliario} width="150px" height="150px" alt="" />
                                 </div>
                                 <div className="col-sm" id="paragrafoAreas">
                                     <p>Imobiliário</p>
@@ -63,7 +66,7 @@ class Areas extends Component {
                         <div className="col-sm" id="border">
                         <div className="row">
                                 <div className="col-sm">
-                                    <img src={trabalhista} width="150px" height="150px" alt="" />
+                                    <img src={compliance} width="150px" height="150px" alt="" />
                                 </div>
                                 <div className="col-sm" id="paragrafoAreas">
                                     <p>Compliance</p>

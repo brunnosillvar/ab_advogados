@@ -7,7 +7,8 @@
 
 body{
     background: #0A0908;
-    font: 14px roboto;
+    font-family: "Palatino Linotype", roboto, serif;
+    font: 14px;
     -webkit-font-smoothing: antialiased !important;
 }
 
