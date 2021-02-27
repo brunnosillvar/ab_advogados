@@ -13,6 +13,7 @@ class New extends Component {
             image: null,
             url: '',
             descricao: '',
+            fonte: '',
             alert: '',
             progress: 0,
             nome: localStorage.nome
@@ -42,6 +43,7 @@ class New extends Component {
                 titulo: this.state.titulo,
                 image: this.state.url,
                 descricao: this.state.descricao,
+                fonte: this.state.fonte,
                 autor: localStorage.nome
             })
 
@@ -150,6 +152,10 @@ class New extends Component {
                     <label>Descrição: </label><br />
                     <textarea type="text" placeholder="Conteúdo" value={this.state.descricao}
                         onChange={(e) => this.setState({ descricao: e.target.value })} /><br />
+                    
+                    <label>Fonte: </label><br />
+                    <input type="text" placeholder="Fonte" value={this.state.fonte}
+                        onChange={(e) => this.setState({ fonte: e.target.value })} /><br />
 
                     <button type="submit">Cadastrar</button>
                 </form>

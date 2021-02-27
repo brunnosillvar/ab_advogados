@@ -56,7 +56,7 @@ echo'Para voltar a página inicial click no botão "Voltar" abaixo.';
 echo'</h3>';
 echo'</div>';
 echo'<div>';
-echo'<p><a href="https://abadvogados.000webhostapp.com" >Voltar</a></p>';
+echo'<p><a href="https://augustoebarros.adv.br/" >Voltar</a></p>';
 echo'</div>';
 echo'</body>';
 echo'</html>';

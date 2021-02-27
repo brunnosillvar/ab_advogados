@@ -18,7 +18,8 @@ class Conteudo extends Component {
                     titulo: childItem.val().titulo,
                     descricao: childItem.val().descricao,
                     autor: childItem.val().autor,
-                    image: childItem.val().image
+                    image: childItem.val().image,
+                    fonte: childItem.val().fonte
                 })
             })
             state.posts.reverse();
@@ -40,6 +41,7 @@ class Conteudo extends Component {
                                         <h5 id="titulo" className="mt-0 mb-1">{post.titulo}</h5>
                                         <span id="autor">Autor: {post.autor}</span>
                                         <p id="descricao">{post.descricao}</p>
+                                        <p id="descricao">Fonte: <a href={post.fonte} target="_blank" id="fonte">{post.fonte}</a></p>
                                     </div>
                                 </li>
                             )
