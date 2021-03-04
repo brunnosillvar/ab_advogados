@@ -20,12 +20,12 @@ class Contato extends Component {
                             <div className="row">
                                 <div className="col-sm" id="informacoesContato">
                                     <h5>ENDEREÇO SEDE</h5>
-                                    <p>Rua Isabel, 180, Penha, São Paulo - SP</p>
+                                    <p>Rua Isabel, 180, Penha de França, São Paulo - SP - CEP: 03647-020</p>
                                     {/* <br /> */}
                                     <h5>ENDEREÇO FILIAL</h5> 
                                     <p>Alameda Terracota, 
                                     215, 8° andar, sala 819, Cerâmica, 
-                                    São Caetano do Sul- SP</p>                                    
+                                    São Caetano do Sul- SP - CEP: 09531-190</p>                                    
                                 </div>
                                 <div className="col-sm" id="informacoesContato">
                                     <h5>TELEFONE</h5>

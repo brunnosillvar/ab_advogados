@@ -21,31 +21,31 @@ class Areas extends Component {
                         <div className="col-sm" id="border">
                         <div className="row">
                                 <div className="col-sm">
-                                    <img src={empresarial} width="150px" height="150px" alt="" />
+                                    <img src={civel} width="150px" height="150px" alt="" />
                                 </div>
-                                <div className="col-sm" id="paragrafoAreasFontMenor">
-                                    <p>Empresarial</p>
-                                </div>
+                                <div className="col-sm" id="paragrafoAreas">
+                                    <p>Cível</p>
+                                </div>                                
                             </div>
                         </div>
                         <div className="col-sm" id="border">
                         <div className="row">
                                 <div className="col-sm">
-                                    <img src={imobiliario} width="150px" height="150px" alt="" />
+                                    <img src={compliance} width="150px" height="150px" alt="" />
                                 </div>
                                 <div className="col-sm" id="paragrafoAreas">
-                                    <p>Imobiliário</p>
-                                </div>
+                                    <p>Compliance</p>
+                                </div>                                
                             </div>
                         </div>
                         <div className="col-sm" id="border">
                             <div className="row">
                                 <div className="col-sm">
-                                    <img src={trabalhista} width="150px" height="150px" alt="" />
+                                    <img src={criminal} width="150px" height="150px" alt="" />
                                 </div>
                                 <div className="col-sm" id="paragrafoAreas">
-                                    <p>Trabalhista</p>
-                                </div>
+                                    <p>Criminal</p>
+                                </div>                                
                             </div>
                         </div>
                     </div>
@@ -56,20 +56,20 @@ class Areas extends Component {
                         <div className="col-sm" id="border">
                         <div className="row">
                                 <div className="col-sm">
-                                    <img src={familia} width="150px" height="150px" alt="" />
+                                    <img src={empresarial} width="150px" height="150px" alt="" />
                                 </div>
                                 <div className="col-sm" id="paragrafoAreas">
-                                    <p>Família, Sucessões e Planejamento Patrimonial</p>
-                                </div>
+                                    <p>Empresarial</p>
+                                </div>                                
                             </div>
                         </div>
                         <div className="col-sm" id="border">
                         <div className="row">
                                 <div className="col-sm">
-                                    <img src={compliance} width="150px" height="150px" alt="" />
+                                    <img src={familia} width="150px" height="150px" alt="" />
                                 </div>
                                 <div className="col-sm" id="paragrafoAreas">
-                                    <p>Compliance</p>
+                                    <p>Família, Sucessões e Planejamento Patrimonial</p>
                                 </div>
                             </div>
                         </div>
@@ -79,31 +79,31 @@ class Areas extends Component {
                     <div className="row">
                         <div className="col-sm" id="border">
                         <div className="row">
-                                <div className="col-sm">
-                                    <img src={civel} width="150px" height="150px" alt="" />
-                                </div>
-                                <div className="col-sm" id="paragrafoAreas">
-                                    <p>Cível</p>
-                                </div>
+                            <div className="col-sm">
+                                <img src={imobiliario} width="150px" height="150px" alt="" />
                             </div>
+                            <div className="col-sm" id="paragrafoAreas">
+                                <p>Imobiliário</p>
+                            </div>
+                        </div>
                         </div>
                         <div className="col-sm" id="border">
                         <div className="row">
-                                <div className="col-sm">
-                                    <img src={tributaria} width="150px" height="150px" alt="" />
-                                </div>
-                                <div className="col-sm" id="paragrafoAreas">
-                                    <p>Tributaria</p>
-                                </div>
+                            <div className="col-sm">
+                                <img src={trabalhista} width="150px" height="150px" alt="" />
+                            </div>
+                            <div className="col-sm" id="paragrafoAreas">
+                                <p>Trabalhista</p>
+                            </div>                                
                             </div>
                         </div>
                         <div className="col-sm" id="border">
                             <div className="row">
-                                <div className="col-sm">
-                                    <img src={criminal} width="150px" height="150px" alt="" />
+                            <   div className="col-sm">
+                                    <img src={tributaria} width="150px" height="150px" alt="" />
                                 </div>
                                 <div className="col-sm" id="paragrafoAreas">
-                                    <p>Criminal</p>
+                                    <p>Tributário</p>
                                 </div>
                             </div>
                         </div>

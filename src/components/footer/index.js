@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { FacebookFilled, InstagramFilled } from '@ant-design/icons';
 import './footer.css';
 import logofooter from "../../assets/images/logo.png";
