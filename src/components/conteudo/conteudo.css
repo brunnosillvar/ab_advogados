@@ -2,13 +2,19 @@
     .tituloConteudo h1{
         margin-top: 20px;
         font-size: 30px;
-        color: #C6AC8F;
+        color: #dca422;
     }
     .listConteudo{
         margin-left: 70px;
         margin-top: 20px;
     }
 }
+@media only screen and (max-width: 576px){
+    img#imgPost{
+        display: none;
+     }
+}
+
 
 .tituloConteudo{
     display: flex;
@@ -18,11 +24,11 @@
 
 .tituloConteudo h1{
     font-size: 30px;
-    color: #C6AC8F;
+    color: #dca422;
 }
 
 h5#titulo{
-    font-size: 20px;
+    font-size: 25px;
     padding-top: 5px;
     color: #FFF
 }
@@ -34,9 +40,10 @@ span#autor{
 }
 
 p#descricao{
-    font-size: 13px;
+    font-size: 15px;
     padding-top: 5px;
-    color: #FFF
+    color: #FFF;
+    text-align: justify;
 }
 
 img#imgPost{

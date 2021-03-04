@@ -22,36 +22,32 @@ class Valores extends Component {
                         <img src={valoresmobile} width="100%" height="300px" alt="Imagem 0" id="mobile" className="mobile" />
                         <div className="carousel-caption d-none d-block">
                             <h1>Nossos Valores</h1>
-                            <p>Somos dinâmicos, abertos a novos conhecimentos e
-                            acreditamos que os serviços jurídicos devem estar
-                            alinhados com os interesses estratégicos e com o
-                            contexto econômico de nossos clientes.
-                            Cultivamos um ambiente de trabalho saudável, transparente e
-                            baseado em valores como honestidade e proativade.</p>
+                            <p>Ética e transparência: É inegociável, como base 
+                                o relacionamento pessoal e profissional. Humanismo:
+                                é necessário observar os anseios comuns. 
+                                Qualidade: Obrigação primária em todos os negócios. 
+                                Resultados: apresentar soluções esperadas. Simples: Sempre.</p>
                         </div>
                     </div>
                     <div className="carousel-item" >
                         <img src={missao} width="100%" height="300px" alt="Imagem 1" className="d-block w-100" />
                         <div className="carousel-caption d-none d-block">
                             <h1>Nossa Missão</h1>
-                            <p>Prover serviços jurídicos de qualidade,
-                            a fim de auxiliar os clientes a alcançar seus
-                            objetivos de forma célere e eficaz, através de advogados
-                            e colaboradores qualificados, dedicados às causas
-                            a eles confiadas.</p>
+                            <p>Prover serviços jurídicos de qualidade, a fim de 
+                                auxiliar os clientes a alcançar seus objetivos de 
+                                forma célere, simples e eficaz, através de advogados 
+                                e colaboradores altamente qualificados. </p>
                         </div>
                     </div>
                     <div className="carousel-item" >
                         <img src={visao} width="100%" height="300px" alt="Imagem 2" className="d-block w-100" />
                         <div className="carousel-caption d-none d-block">
                             <h1>Nossa Visão</h1>
-                            <p>Ser um escritório com atuações empresarial e pessoal,
-                            que prima pela qualidade e encontra soluções jurídicas
-                            para seus clientes, proporcionando resultados que
-                            excedam suas expectativas, tanto na esfera judicial
-                            como na extrajudicial. Atuar e acreditar que a assessoria
-                            preventiva jurídica é a melhor solução para evitar
-                            litígios desnecessários.</p>
+                            <p>Prestar serviços jurídicos em todo o território nacional, 
+                                primando pela qualidade dos serviços e buscando a melhor 
+                                solução para os nossos clientes, proporcionando 
+                                resultados que excedam suas expectativas, tanto 
+                                na esfera judicial como na extrajudicial.</p>
                         </div>
                     </div>
                     <div className="carousel-control-prev" href="#carouselSection" role="button" data-slide="prev">

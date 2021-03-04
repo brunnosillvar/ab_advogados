@@ -1,12 +1,12 @@
 @media only screen and (min-width: 1200px){
     #border img{
-        width: 200px;
-        height: 200px
+        width: 100px;
+        height: 100px
     }
     .areas h1{
         margin-top: 20px;
         font-size: 30px;
-        color: #C6AC8F;
+        color: #dca422;
     }
     #paragrafoAreas{
         display: flex;
@@ -23,13 +23,13 @@
 
 @media only screen and (max-width: 1500px){
     #border img{
-        width: 150px;
-        height: 150px
+        width: 100px;
+        height: 100px
     }
     .areas h1{
         margin-top: 20px;
         font-size: 30px;
-        color: #C6AC8F;
+        color: #dca422;
     }
     #paragrafoAreas{
         display: flex;
@@ -41,7 +41,6 @@
         justify-content: center;
         align-items: center;
     }
-
 }
 
 #paragrafoAreasFontMenor{
@@ -51,7 +50,7 @@
 
 .tituloAreas h1{
     font-size: 30px;
-    color: #C6AC8F;
+    color: #dca422;
 }
 
 .tituloAreas{
@@ -62,9 +61,9 @@
 
 #border{
     width: 100%;
-    height: 280px;
+    height: 250px;
     border: 1px solid rgba(94, 80, 63, 0.7);
-    background: #C6AC8F;
+    background: #dca422;
     box-shadow: -10px -10px 30px rgba(94, 80, 63, 0.7);
 }
 

@@ -12,7 +12,7 @@ header#main-header {
 }
 
 header#main-header a{
-    color: #C6AC8F;
+    color: #dca422;
     text-decoration: none;
     font-size: 18px;
 }
@@ -35,9 +35,9 @@ header#main-header button {
         background-color: #0A0908; */
 }
 .navbar a, .navbar .navbar-brand {
-    color: #C6AC8F !important;
+    color: #dca422 !important;
 }
 .navbar-nav a:hover, .navbar-nav li.active a {
     color: #FFF !important;
-    background-color: #C6AC8F !important;
+    background-color: #dca422 !important;
 }

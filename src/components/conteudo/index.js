@@ -39,7 +39,7 @@ class Conteudo extends Component {
                                     <img src={post.image} id="imgPost" className="mr-3" alt="Capa do Post" />
                                     <div className="media-body">
                                         <h5 id="titulo" className="mt-0 mb-1">{post.titulo}</h5>
-                                        <span id="autor">Autor: {post.autor}</span>
+                                        {/* <span id="autor">Autor: {post.autor}</span> */}
                                         <p id="descricao">{post.descricao}</p>
                                         <p id="descricao">Fonte: <a href={post.fonte} target="_blank" id="fonte">{post.fonte}</a></p>
                                     </div>

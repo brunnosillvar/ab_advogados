@@ -118,7 +118,7 @@ div#dashboard p{
     padding: 0 30px;
     display: flex;
     justify-content: center;
-    color: #C6AC8F;
+    color: #dca422;
 }
 
 div#dashboard .user-info{
@@ -126,7 +126,7 @@ div#dashboard .user-info{
     height: 30px;
     align-items: center;
     justify-content: center;
-    color: #C6AC8F;
+    color: #dca422;
 }
 
 /* div#dashboard .user-info a{

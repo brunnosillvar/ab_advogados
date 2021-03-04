@@ -19,7 +19,7 @@
     padding-left: 10px;
     padding-right: 10px;
     color: #FFF;
-    text-align: left;
+    text-align: justify;
     font-size: 12px;
 }
 
@@ -44,10 +44,10 @@
     #carouselSection p{
         /* margin-left: 20px; */
         width: 40%;
-        font-size: 14px;
+        font-size: 16px;
         padding: 10px;
         color: #FFF;
-        text-align: left;
+        text-align: justify;
     }
 
     #carouselSection img{
