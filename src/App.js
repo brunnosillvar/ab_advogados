@@ -11,9 +11,14 @@ import New from "./components/new";
 import Home from "./components/home";
 import Footer from "./components/footer";
 import Civel from "./components/areas/civel";
-import Complience from "./components/areas/complience";
-import "./global.css";
 import Compliance from "./components/areas/complience";
+import Criminal from "./components/areas/criminal";
+import Empresarial from "./components/areas/empresarial";
+import Familia from "./components/areas/familia";
+import Imobiliario from "./components/areas/imobiliario";
+import Trabalhista from "./components/areas/trabalhista";
+import Tributario from "./components/areas/tributario";
+import "./global.css";
 
 class App extends Component {
   state = {
@@ -40,6 +45,12 @@ class App extends Component {
           <Route exact path="/register" component={Register} />
           <Route exact path="/civel" component={Civel} />
           <Route exact path="/complience" component={Compliance} />
+          <Route exact path="/criminal" component={Criminal} />
+          <Route exact path="/empresarial" component={Empresarial} />
+          <Route exact path="/familia" component={Familia} />
+          <Route exact path="/imobiliario" component={Imobiliario} />
+          <Route exact path="/trabalhista" component={Trabalhista} />
+          <Route exact path="/tributario" component={Tributario} />
         </Switch>
         <Footer />
       </BrowserRouter>

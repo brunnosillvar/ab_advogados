@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./areas.css";
 import civel from "../../assets/icones/Civel.png";
 import trabalhista from "../../assets/icones/Trabalhista.png";
@@ -28,57 +29,32 @@ class Areas extends Component {
           <div className="row">
             <div className="col-sm" id="border">
               <div className="row">
-                <div className="col-sm">
-                  <img src={civel} width="150px" height="150px" alt="" />
-                </div>
-                <div className="col-sm" id="paragrafoAreas">
-                  <p>Cível</p>
-                </div>
+                <Link to="/civel">
+                  <div className="paragrafoAreas" id="paragrafoAreas">
+                    <img src={civel} width="150px" height="150px" alt="" />
+                    <p>Cível</p>
+                  </div>
+                </Link>
               </div>
             </div>
             <div className="col-sm" id="border">
               <div className="row">
-                <div className="col-sm">
-                  <img src={compliance} width="150px" height="150px" alt="" />
-                </div>
-                <div className="col-sm" id="paragrafoAreas">
-                  <p>Compliance</p>
-                </div>
+                <Link to="/complience">
+                  <div className="paragrafoAreas" id="paragrafoAreas">
+                    <img src={compliance} width="150px" height="150px" alt="" />
+                    <p>Compliance</p>
+                  </div>
+                </Link>
               </div>
             </div>
             <div className="col-sm" id="border">
               <div className="row">
-                <div className="col-sm">
-                  <img src={criminal} width="150px" height="150px" alt="" />
-                </div>
-                <div className="col-sm" id="paragrafoAreas">
-                  <p>Criminal</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <div className="row">
-            <div className="col-sm" id="border">
-              <div className="row">
-                <div className="col-sm">
-                  <img src={empresarial} width="150px" height="150px" alt="" />
-                </div>
-                <div className="col-sm" id="paragrafoAreas">
-                  <p>Empresarial</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm" id="border">
-              <div className="row">
-                <div className="col-sm">
-                  <img src={familia} width="150px" height="150px" alt="" />
-                </div>
-                <div className="col-sm" id="paragrafoAreas">
-                  <p>Família, Sucessões e Planejamento Patrimonial</p>
-                </div>
+                <Link to="/criminal">
+                  <div className="paragrafoAreas" id="paragrafoAreas">
+                    <img src={criminal} width="150px" height="150px" alt="" />
+                    <p>Criminal</p>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -87,32 +63,71 @@ class Areas extends Component {
           <div className="row">
             <div className="col-sm" id="border">
               <div className="row">
-                <div className="col-sm">
-                  <img src={imobiliario} width="150px" height="150px" alt="" />
-                </div>
-                <div className="col-sm" id="paragrafoAreas">
-                  <p>Imobiliário</p>
-                </div>
+                <Link to="/empresarial">
+                  <div className="paragrafoAreas" id="paragrafoAreas">
+                    <img
+                      src={empresarial}
+                      width="150px"
+                      height="150px"
+                      alt=""
+                    />
+                    <p>Empresarial</p>
+                  </div>
+                </Link>
               </div>
             </div>
             <div className="col-sm" id="border">
               <div className="row">
-                <div className="col-sm">
-                  <img src={trabalhista} width="150px" height="150px" alt="" />
-                </div>
-                <div className="col-sm" id="paragrafoAreas">
-                  <p>Trabalhista</p>
-                </div>
+                <Link to="/familia">
+                  <div className="paragrafoAreas" id="paragrafoAreas">
+                    <img src={familia} width="150px" height="150px" alt="" />
+                    <p>Família, Sucessões e Planejamento Patrimonial</p>
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div className="row">
+            <div className="col-sm" id="border">
+              <div className="row">
+                <Link to="/imobiliario">
+                  <div className="paragrafoAreas" id="paragrafoAreas">
+                    <img
+                      src={imobiliario}
+                      width="150px"
+                      height="150px"
+                      alt=""
+                    />
+                    <p>Imobiliário</p>
+                  </div>
+                </Link>
               </div>
             </div>
             <div className="col-sm" id="border">
               <div className="row">
-                <div className="col-sm">
-                  <img src={tributaria} width="150px" height="150px" alt="" />
-                </div>
-                <div className="col-sm" id="paragrafoAreas">
-                  <p>Tributário</p>
-                </div>
+                <Link to="/trabalhista">
+                  <div className="paragrafoAreas" id="paragrafoAreas">
+                    <img
+                      src={trabalhista}
+                      width="150px"
+                      height="150px"
+                      alt=""
+                    />
+                    <p>Trabalhista</p>
+                  </div>
+                </Link>
+              </div>
+            </div>
+            <div className="col-sm" id="border">
+              <div className="row">
+                <Link to="/tributario">
+                  <div className="col-sm" id="paragrafoAreas">
+                    <img src={tributaria} width="150px" height="150px" alt="" />
+                    <p>Tributário</p>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

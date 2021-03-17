@@ -8,6 +8,15 @@ class Compliance extends Component {
       <div className="areaDetail">
         <div className="tituloAreaDetail">
           <h1>Área de Atuação: Complience</h1>
+          <div className="tituloDetailButton">
+            <a
+              href="https://api.whatsapp.com/send?phone=5511953471360&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20a%20respeito%20do%20seu%20trabalho."
+              target="_blank"
+              id="tituloDatailButton"
+            >
+              Entre em contato agora via WhatsApp!
+            </a>
+          </div>
         </div>
         <div className="textoAreaDetail">
           <p>
@@ -24,33 +33,40 @@ class Compliance extends Component {
             Sociedade de Advogados apresenta às empresas que ainda não possuem
             tal estratégia pensem a respeito. Com o compliance, se poderá
             alinhar a maneira como as informações da companhia são tratadas e
-            como as pessoas nela inseridas agem no dia a dia. Assim,
-            apresentamos os seguintes serviços:
+            como as pessoas nela inseridas agem no dia a dia.
+            <p>Assim, apresentamos os seguintes serviços:</p>
           </p>
         </div>
         <ul className="listAreaDetail">
-          <li className="media pt-2">
-            <p id="descricao">
+          <li>
+            <p>
               Consultoria na implementação e revisão de programa de compliance;
             </p>
           </li>
-          <li className="media pt-2">
+          <li>
             <p>Assessoria na elaboração do Código de Ética e Conduta;</p>
           </li>
-          <li className="media pt-2">
+          <li>
             <p>Mapeamento de processos e gestão de riscos;</p>
           </li>
-          <li className="media pt-2">
+          <li>
             <p>Assessoria jurídica em temas de compliance;</p>
           </li>
-          <li className="media pt-2">
+          <li>
             <p>Assessoria na implantação do canal de denúncia;</p>
           </li>
-          <li className="media pt-2">
+          <li>
             <p>Apoio em comunicação e treinamentos.</p>
           </li>
         </ul>
-
+        <div className="tituloDetailButton">
+          <a
+            href="https://api.whatsapp.com/send?phone=5511953471360&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20a%20respeito%20do%20seu%20trabalho."
+            target="_blank"
+          >
+            Fale agora com um advogado especialista!
+          </a>
+        </div>
         <Contato />
       </div>
     );

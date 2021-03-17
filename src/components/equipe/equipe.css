@@ -1,55 +1,55 @@
-@media only screen and (min-width: 576px){
-    #perfil{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #perfil img{
-        width: 150px;
-        height: 150px;
-        border-radius: 100px;
-    }
-    .equipe h1{
-        margin-top: 20px;
-        font-size: 30px;
-        color: #dca422;
-    }
-    #paragrafoEquipe{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #equipegeral{
-        margin-top: 15px;
-    }
-}
-
-.tituloEquipe{
+@media only screen and (min-width: 576px) {
+  #perfil {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.tituloEquipe h1{
-    font-size: 30px;
-    color: #dca422;
-}
-
-#paragrafoEquipe p{
-    margin-top: 10px;
-    font-size: 15px;
-    color: #FFF;
-    text-align: justify;
-}
-
-#perfil{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#perfil img{
+  }
+  #perfil img {
     width: 150px;
     height: 150px;
     border-radius: 100px;
+  }
+  .equipe h1 {
+    margin-top: 20px;
+    font-size: 27px;
+    color: #dca422;
+  }
+  #paragrafoEquipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #equipegeral {
+    margin-top: 15px;
+  }
+}
+
+.tituloEquipe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloEquipe h1 {
+  font-size: 27px;
+  color: #dca422;
+}
+
+#paragrafoEquipe p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #fff;
+  text-align: justify;
+}
+
+#perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#perfil img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
 }

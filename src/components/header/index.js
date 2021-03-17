@@ -35,7 +35,7 @@ function Header() {
                 Institucional
               </a>
               <a className="nav-item nav-link" href="/#equipe">
-                Equipe
+                Sócios
               </a>
               <a className="nav-item nav-link" href="/#conteudo">
                 Conteúdo
