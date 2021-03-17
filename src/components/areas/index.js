@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './areas.css';
+import React, { Component } from "react";
+import "./areas.css";
 import civel from "../../assets/icones/Civel.png";
 import trabalhista from "../../assets/icones/Trabalhista.png";
 import familia from "../../assets/icones/Familia.png";
@@ -10,110 +10,116 @@ import imobiliario from "../../assets/icones/imobiliario.png";
 import empresarial from "../../assets/icones/empresarial.png";
 
 class Areas extends Component {
-
-    render() {
-        return (
-
-            <div className="areas" id="areas">
-                <div className="tituloAreas"><h1>ÁREAS DE ATUAÇÃO</h1></div>
-                <div class="container">
-                    <div className="row">
-                        <div className="col-sm" id="border">
-                        <div className="row">
-                                <div className="col-sm">
-                                    <img src={civel} width="150px" height="150px" alt="" />
-                                </div>
-                                <div className="col-sm" id="paragrafoAreas">
-                                    <p>Cível</p>
-                                </div>                                
-                            </div>
-                        </div>
-                        <div className="col-sm" id="border">
-                        <div className="row">
-                                <div className="col-sm">
-                                    <img src={compliance} width="150px" height="150px" alt="" />
-                                </div>
-                                <div className="col-sm" id="paragrafoAreas">
-                                    <p>Compliance</p>
-                                </div>                                
-                            </div>
-                        </div>
-                        <div className="col-sm" id="border">
-                            <div className="row">
-                                <div className="col-sm">
-                                    <img src={criminal} width="150px" height="150px" alt="" />
-                                </div>
-                                <div className="col-sm" id="paragrafoAreas">
-                                    <p>Criminal</p>
-                                </div>                                
-                            </div>
-                        </div>
-                    </div>
+  render() {
+    return (
+      <div className="areas" id="areas">
+        <div className="tituloAreas">
+          <h1>ÁREAS DE ATUAÇÃO</h1>
+        </div>
+        <div className="textoAreas">
+          <p>
+            A Augusto e Barros Sociedade de Advogados atende toda e qualquer
+            demanda, destacando-se pela maneira objetiva, correta, moderna e
+            eficaz que adota para assessorar clientes a solucionar problemas.
+            Veja abaixo as áreas do direito na qual atuamos:
+          </p>
+        </div>
+        <div class="container">
+          <div className="row">
+            <div className="col-sm" id="border">
+              <div className="row">
+                <div className="col-sm">
+                  <img src={civel} width="150px" height="150px" alt="" />
                 </div>
-            
-                <div class="container">
-                    <div className="row">
-                        <div className="col-sm" id="border">
-                        <div className="row">
-                                <div className="col-sm">
-                                    <img src={empresarial} width="150px" height="150px" alt="" />
-                                </div>
-                                <div className="col-sm" id="paragrafoAreas">
-                                    <p>Empresarial</p>
-                                </div>                                
-                            </div>
-                        </div>
-                        <div className="col-sm" id="border">
-                        <div className="row">
-                                <div className="col-sm">
-                                    <img src={familia} width="150px" height="150px" alt="" />
-                                </div>
-                                <div className="col-sm" id="paragrafoAreas">
-                                    <p>Família, Sucessões e Planejamento Patrimonial</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className="col-sm" id="paragrafoAreas">
+                  <p>Cível</p>
                 </div>
-                <div class="container">
-                    <div className="row">
-                        <div className="col-sm" id="border">
-                        <div className="row">
-                            <div className="col-sm">
-                                <img src={imobiliario} width="150px" height="150px" alt="" />
-                            </div>
-                            <div className="col-sm" id="paragrafoAreas">
-                                <p>Imobiliário</p>
-                            </div>
-                        </div>
-                        </div>
-                        <div className="col-sm" id="border">
-                        <div className="row">
-                            <div className="col-sm">
-                                <img src={trabalhista} width="150px" height="150px" alt="" />
-                            </div>
-                            <div className="col-sm" id="paragrafoAreas">
-                                <p>Trabalhista</p>
-                            </div>                                
-                            </div>
-                        </div>
-                        <div className="col-sm" id="border">
-                            <div className="row">
-                            <   div className="col-sm">
-                                    <img src={tributaria} width="150px" height="150px" alt="" />
-                                </div>
-                                <div className="col-sm" id="paragrafoAreas">
-                                    <p>Tributário</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div className="col-sm" id="border">
+              <div className="row">
+                <div className="col-sm">
+                  <img src={compliance} width="150px" height="150px" alt="" />
+                </div>
+                <div className="col-sm" id="paragrafoAreas">
+                  <p>Compliance</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm" id="border">
+              <div className="row">
+                <div className="col-sm">
+                  <img src={criminal} width="150px" height="150px" alt="" />
+                </div>
+                <div className="col-sm" id="paragrafoAreas">
+                  <p>Criminal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-
-        );
-    }
+        <div class="container">
+          <div className="row">
+            <div className="col-sm" id="border">
+              <div className="row">
+                <div className="col-sm">
+                  <img src={empresarial} width="150px" height="150px" alt="" />
+                </div>
+                <div className="col-sm" id="paragrafoAreas">
+                  <p>Empresarial</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm" id="border">
+              <div className="row">
+                <div className="col-sm">
+                  <img src={familia} width="150px" height="150px" alt="" />
+                </div>
+                <div className="col-sm" id="paragrafoAreas">
+                  <p>Família, Sucessões e Planejamento Patrimonial</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div className="row">
+            <div className="col-sm" id="border">
+              <div className="row">
+                <div className="col-sm">
+                  <img src={imobiliario} width="150px" height="150px" alt="" />
+                </div>
+                <div className="col-sm" id="paragrafoAreas">
+                  <p>Imobiliário</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm" id="border">
+              <div className="row">
+                <div className="col-sm">
+                  <img src={trabalhista} width="150px" height="150px" alt="" />
+                </div>
+                <div className="col-sm" id="paragrafoAreas">
+                  <p>Trabalhista</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm" id="border">
+              <div className="row">
+                <div className="col-sm">
+                  <img src={tributaria} width="150px" height="150px" alt="" />
+                </div>
+                <div className="col-sm" id="paragrafoAreas">
+                  <p>Tributário</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Areas;
