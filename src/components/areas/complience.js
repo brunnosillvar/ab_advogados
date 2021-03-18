@@ -3,6 +3,9 @@ import "./areas.css";
 import Contato from "../contato";
 
 class Compliance extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div className="areaDetail">

@@ -29,32 +29,32 @@ class Areas extends Component {
           <div className="row">
             <div className="col-sm" id="border">
               <div className="row">
-                <a href="/civel">
+                <Link to="/civel">
                   <div className="paragrafoAreas" id="paragrafoAreas">
                     <img src={civel} width="150px" height="150px" alt="" />
                     <p>Cível</p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-sm" id="border">
               <div className="row">
-                <a href="/compliance">
+                <Link to="/compliance">
                   <div className="paragrafoAreas" id="paragrafoAreas">
                     <img src={compliance} width="150px" height="150px" alt="" />
                     <p>Compliance</p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-sm" id="border">
               <div className="row">
-                <a href="/criminal">
+                <Link to="/criminal">
                   <div className="paragrafoAreas" id="paragrafoAreas">
                     <img src={criminal} width="150px" height="150px" alt="" />
                     <p>Criminal</p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@ class Areas extends Component {
           <div className="row">
             <div className="col-sm" id="border">
               <div className="row">
-                <a href="/empresarial">
+                <Link to="/empresarial">
                   <div className="paragrafoAreas" id="paragrafoAreas">
                     <img
                       src={empresarial}
@@ -73,17 +73,17 @@ class Areas extends Component {
                     />
                     <p>Empresarial</p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-sm" id="border">
               <div className="row">
-                <a href="/familia">
+                <Link to="/familia">
                   <div className="paragrafoAreas" id="paragrafoAreas">
                     <img src={familia} width="150px" height="150px" alt="" />
                     <p>Família, Sucessões e Planejamento Patrimonial</p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@ class Areas extends Component {
           <div className="row">
             <div className="col-sm" id="border">
               <div className="row">
-                <a href="/imobiliario">
+                <Link to="/imobiliario">
                   <div className="paragrafoAreas" id="paragrafoAreas">
                     <img
                       src={imobiliario}
@@ -102,12 +102,12 @@ class Areas extends Component {
                     />
                     <p>Imobiliário</p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-sm" id="border">
               <div className="row">
-                <a href="/trabalhista">
+                <Link to="/trabalhista">
                   <div className="paragrafoAreas" id="paragrafoAreas">
                     <img
                       src={trabalhista}
@@ -117,17 +117,17 @@ class Areas extends Component {
                     />
                     <p>Trabalhista</p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-sm" id="border">
               <div className="row">
-                <a href="/tributario">
+                <Link to="/tributario">
                   <div className="col-sm" id="paragrafoAreas">
                     <img src={tributaria} width="150px" height="150px" alt="" />
                     <p>Tributário</p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
