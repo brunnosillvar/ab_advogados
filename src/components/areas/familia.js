@@ -47,16 +47,16 @@ class Familia extends Component {
             <p>Acordos relacionados a matéria de família e sucessões;</p>
           </li>
           <li>
-            <p>Pareceres relacionados a matéria de família e sucessões.</p>
+            <p>Pareceres relacionados a matéria de família e sucessões;</p>
+          </li>
+          <li>
+            <p>Divórcio Extrajudicial.</p>
           </li>
         </ul>
         <h5>Contencioso Família e Sucessões</h5>
         <ul className="listAreaDetail">
           <li>
-            <p>Divórcio e separação judicial;</p>
-          </li>
-          <li>
-            <p>Separação de corpos;</p>
+            <p>Divórcio judicial;</p>
           </li>
           <li>
             <p>Reconhecimento e dissolução de união estável;</p>

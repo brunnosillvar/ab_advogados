@@ -25,8 +25,8 @@ class Trabalhista extends Component {
             garantia dos direitos e da dignidade da pessoa humana e jurídica.
             <br /> A Augusto e Barros Sociedade de Advogados atua nas áreas
             preventiva e contenciosa, defendendo os direitos, tanto dos
-            empregados quanto dos prestadores de serviços empregadores e
-            tomadores de serviços.
+            empregados quanto dos empregadores e tomadores de serviços.
+            <br />
             <br />
             Destacam-se as atividades para atender a necessidades de sua
             Empresa:

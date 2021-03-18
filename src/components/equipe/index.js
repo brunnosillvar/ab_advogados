@@ -42,7 +42,7 @@ class Equipe extends Component {
                     Sócio- Diretor, Pós- Graduado em Direito e Processo do
                     Trabalho, Pós- Graduando em Direito e Processo Penal.
                     <br />
-                    Áreas de Atuação: Cível, Compliance e Trabalhista.
+                    Áreas de Atuação: Criminal e Trabalhista.
                   </p>
                 </div>
               </div>

@@ -21,7 +21,7 @@ class Empresarial extends Component {
         <div className="textoAreaDetail">
           <p>
             No Direito Empresarial, a atuação Augusto e Barros Sociedade de
-            Advogados está intimamente ligada na atualização legislativas,
+            Advogados está intimamente ligada naa atualizações legislativas,
             doutrinárias e jurisprudenciais relacionadas com as atividades
             principais da empresa. O papel do escritório é respaldar a empresa
             no seu desenvolvimento, evitando, principalmente, o desperdício de

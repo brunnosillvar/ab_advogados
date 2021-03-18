@@ -7,7 +7,7 @@ class Compliance extends Component {
     return (
       <div className="areaDetail">
         <div className="tituloAreaDetail">
-          <h1>Área de Atuação: Complience</h1>
+          <h1>Área de Atuação: Compliance</h1>
           <div className="tituloDetailButton">
             <a
               href="https://api.whatsapp.com/send?phone=5511953471360&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20a%20respeito%20do%20seu%20trabalho."

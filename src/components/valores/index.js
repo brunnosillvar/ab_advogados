@@ -46,8 +46,8 @@ class Valores extends Component {
               <p>
                 Ética e transparência: É inegociável, como base o relacionamento
                 pessoal e profissional. Humanismo: é necessário observar os
-                anseios comuns. Qualidade: Obrigação primária em todos os
-                negócios. Resultados: apresentar soluções esperadas. Simples:
+                anseios de cada clientes. Qualidade: Obrigação primária em todos
+                os negócios. Resultados: Apresentar soluções esperadas. Simples:
                 Sempre.
               </p>
             </div>

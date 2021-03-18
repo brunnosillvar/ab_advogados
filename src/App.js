@@ -44,7 +44,7 @@ class App extends Component {
           <Route exact path="/dashboard/new" component={New} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/civel" component={Civel} />
-          <Route exact path="/complience" component={Compliance} />
+          <Route exact path="/compliance" component={Compliance} />
           <Route exact path="/criminal" component={Criminal} />
           <Route exact path="/empresarial" component={Empresarial} />
           <Route exact path="/familia" component={Familia} />
