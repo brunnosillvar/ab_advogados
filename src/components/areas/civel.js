@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./areas.css";
 import Contato from "../contato";
+import whats from "../../assets/icones/Whats.png";
 
 class Civel extends Component {
   componentDidMount() {
@@ -12,10 +13,11 @@ class Civel extends Component {
         <div className="tituloAreaDetail">
           <h1>Área de Atuação: Cível</h1>
           <div className="tituloDetailButton">
+            <img src={whats} alt="" width="50px" />
             <a
               href="https://api.whatsapp.com/send?phone=5511953471360&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20a%20respeito%20do%20seu%20trabalho."
               target="_blank"
-              id="tituloDatailButton"
+              id="BotaoCivelSuperior"
             >
               Entre em contato agora via WhatsApp!
             </a>
@@ -60,6 +62,7 @@ class Civel extends Component {
           <a
             href="https://api.whatsapp.com/send?phone=5511953471360&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20a%20respeito%20do%20seu%20trabalho."
             target="_blank"
+            id="BotaoCivelInferior"
           >
             Fale agora com um advogado especialista!
           </a>

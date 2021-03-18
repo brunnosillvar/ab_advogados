@@ -17,7 +17,7 @@ class Contato extends Component {
   handleClick = (e) => {
     const { nome, email, telefone, mensagem } = this.state;
     if (nome !== "" && telefone !== "" && email !== "" && mensagem !== "") {
-      alert("Mensagem enviada com sucesso!" + nome);
+      alert("Mensagem enviada com sucesso!");
       document.location.reload();
     } else {
       alert("Preencha os campos!");
